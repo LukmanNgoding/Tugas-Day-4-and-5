@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E5E0DE;
+    margin: 0;
+    padding: 0;
+}
+
+/* Awal Navbar */
+
+nav {
+    margin: 0;
+    background-color: #F5F3F2;
+    padding: 3px 0;
+    font-size: large;
+}
+
+.nav-item {
+    padding: 0 40px 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 50px;
+}
+
+.nav-item li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 125px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item .active {
+    font-weight: bold;
+}
+
+.nav-item .contactme-button {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 10px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Akhir Navbar */
+
+/* Detail Project */
+
+.container .projectDetail {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+
+}
+
+.projectDetail .heading {
+    text-align: center;
+    padding: 2%;
+}
+
+.projectDetail .project-main {
+    margin-bottom: 2rem;
+}
+
+.projectDetail .img-thumbnail {
+    width: 100%;
+    height: 300px;
+}
+
+.projectDetail .img-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.projectDetail .dataDetail {
+    padding: 1rem 4rem;
+}
+
+.projectDetail .dataDetail .duration h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.projectDetail .dataDetail .duration p {
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-size: 14px;
+}
+
+.projectDetail .dataDetail .icon {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333333;
+    margin-right: 0.5rem;
+}
+
+.list-Technologies {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.list-Technologies .list-Technologies-item {
+    width: 100%;
+    max-width: 180px;
+}
+
+.list-Technologies .list-Technologies-item img {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333333;
+    margin-right: 0.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.description-project p {
+    text-align: justify;
+    margin-right: 9%;
+    margin-left: 9%;
+    padding: 1px 10px 1px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-8 {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.col-4 {
+    width: 40%;
+    margin-right: 2%;
+}
+
+.duration .icon img {
+    width: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}

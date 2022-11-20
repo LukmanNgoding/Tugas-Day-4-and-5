@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E5E0DE;
+    margin: 0;
+    padding: 0;
+}
+
+/* Awal Navbar */
+
+nav {
+    margin: 0;
+    background-color: #F5F3F2;
+    padding: 3px 0;
+    font-size: large;
+}
+
+.nav-item {
+    padding: 0 40px 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 50px;
+}
+
+.nav-item li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 125px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item .active {
+    font-weight: bold;
+}
+
+.nav-item .contactme-button {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 10px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Akhir Navbar */
+
+/* Awal Contact My Project */
+
+.project-contact {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.contact-name-project {
+    margin: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form .form-project {
+    margin-bottom: 1rem;
+}
+
+.form-project label {
+    font-weight: 500;
+    margin-bottom: 0.875rem;
+    display: block;
+
+}
+
+.form-project input[type="text"],
+.form-project input[type="date"],
+.form-project textarea,
+.form-project select {
+    border-radius: 0.25rem;
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.08);
+    padding: 0.75rem 1rem;
+}
+
+.form_date {
+    display: flex;
+    gap: 4rem;
+}
+
+.btnSubmit {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 89%;
+    margin-top: 2rem;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.checkbox_input {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    gap: 0.875rem;
+}
+
+.checkbox_input label {
+    cursor: pointer;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.form-project .form-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Upload image  */
+.upload-file {
+    padding: 0.75rem 1rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.upload-file .image-upload {
+    cursor: pointer;
+    font-family: inherit;
+    width: 100%;
+    display: block;
+}
+
+/* Project */
+
+.container-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 25px 0px;
+}
+
+.container-project .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-project .card {
+    width: 350px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 1px 1px 5px;
+    border-radius: 0.3rem;
+    padding: 20px;
+}
+
+.container-project .card img {
+    width: 100%;
+}
+
+/* Title */
+div.card .title a {
+    color: black;
+    text-decoration: none;
+}
+
+/* description */
+.container-project .card .description {
+    color: black;
+}
+
+/* Button my project */
+.card .action .edit {
+    padding: 0.25rem 2.5rem;
+    font-size: 14px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.card .action .delete {
+    padding: 0.25rem 2.5rem;
+    font-size: 14px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* technologies */
+div.technologies {
+    width: 35px;
+    display: flex;
+    padding: 10px;
+
+}
+
+div.technologies .icon-list {
+    cursor: pointer;
+}
+
+div.technologies .icon-list img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Akhir Contact My Project */

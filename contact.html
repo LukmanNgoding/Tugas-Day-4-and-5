@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul class="nav-item">
+            <li>
+                <img src="test/logo.png" alt="logo-dumbways" id="logo" />
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myProject.html">My Project</a></li>
+            <li class="contactme-button">
+                <a href="contact.html">
+                    <button>Contact Me</button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- / Navbar -->
+    <div>
+        <strong class="h2-center">
+            <h2>GET IN TOUCH</h2>
+        </strong>
+        <div style="display: flex; justify-content:center; align-items: flex-start; margin-top:20px; width:100%">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <label for="phone">Phone number</label>
+                <input type="number" id="phone" name="phone">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Fullstack</option>
+                </select>
+                <label for="">Your message</label>
+                <textarea cols="30" rows="2" id="message"></textarea>
+                <div style="display: flex; justify-content: flex-end;">
+                    <button type="button" class="btn-submit" onclick="submitData()">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

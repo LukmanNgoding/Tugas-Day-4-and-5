@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E5E0DE;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+nav {
+    margin: 0;
+    background-color: #F5F3F2;
+    padding: 3px 0;
+    font-size: large;
+}
+
+.nav-item {
+    padding: 0 40px 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 50px;
+}
+
+.nav-item li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 125px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item .active {
+    font-weight: bold;
+}
+
+.nav-item .contactme-button {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-end;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 10px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* / Navbar */
+
+.welcome {
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 5%;
+    box-shadow: 1px 1px 5px;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+.btn-contact-welcome {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 13px;
+}
+
+.btn-strong {
+    text-align: justify;
+}
+
+.img-dw {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 0 60% 3px 0;
+    display: flex;
+}
+
+.div-img-profil {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197);
+    margin-bottom: 100%;
+}
+
+.img-profil {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+main {
+    width: 70%;
+    margin-left: 4%;
+}
+
+aside {
+    width: 35%;
+    margin-left: 5%;
+
+}
+
+.h2-center {
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197)
+}
+
+input[type=number],
+select {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197)
+}
+
+/* button[type=button] {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+} */
+
+.btn-submit {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+
+textarea {
+    width: 500px;
+    height: 100px;
+    padding: 12px 20px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: auto;
+    margin-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197)
+}
